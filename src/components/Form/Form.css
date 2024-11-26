@@ -1,0 +1,218 @@
+.signupContainer {
+    background-color: black;
+}
+
+.querySection {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: left;
+    margin-right: auto;
+
+    width: 17vw;
+    min-width: 500px;
+
+    h2 { 
+        color: white;
+        margin-bottom: 4vh;
+    }
+
+    ::placeholder {
+        color: #5D5D5D;
+        font-size: 10px;
+    }
+
+    .query {
+        margin: 0;
+        padding: 1vh 0.6vw;
+
+        border: 0.01vw solid white;
+        color: white;
+
+        &:hover {
+            color: black;
+            background-color: #aca9a9;
+        }
+
+        width: 6vw;
+        min-width: 100px;
+
+        margin-top: 0.7vh;
+
+        font-size: 10px;
+    }
+}
+
+.queryInput {
+    border: 0.01vw solid #5D5D5D;
+    background-color: black;
+
+    width: 15vw;
+    min-width: 200px;
+
+    height: 3vh;
+    min-height: 20px;
+
+    margin-bottom: 1vh;
+
+    text-indent: 0.7vw;
+    color: white;
+}
+
+.querySection1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 15vw;
+    min-width: 200px;
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: #848484;
+        margin-bottom: 0;
+        font-size: 8px;
+    }
+
+}
+
+.phoneNumber {
+    font-family: 'SFProDisplay';
+    font-size: 18px;
+    margin-top: 2vh;
+    color: white;
+    margin-bottom: 0.6vh;
+}
+
+.queryContainer {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5vh;
+}
+
+@media all and (max-width: 1366px) {
+    .queryContainer {
+        width: 95vw;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .queryContainer {
+        flex-direction: column;
+        padding-bottom: 2vh;
+    }
+
+    .querySection, .querySection1 {
+        padding: 0;
+        margin: 0;
+        margin-left: 1vw;
+
+        width: 80vw;
+        min-width: 320px;
+    }
+
+    .queryInput {
+        width: 50vw;
+    }
+}
+
+
+.checkbox-wrapper { 
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    p {
+       font-size: 10px;
+       color: #808080;
+
+       margin-left: min(20px, 3.5vw);
+    }
+
+    span {
+        font-size: 10px;
+        color: white;
+        border-bottom: 1px solid #808080;
+    }
+}
+
+.modal-check-wrapper { 
+    span {
+        color: #808080;
+    }
+}
+
+.checkbox-element {
+    appearance: none;
+    position: relative;
+    top: max(25px, 0.07vh);
+    left: max(-15px, 0vw);
+    margin: 0;
+    width: 0.4vw;
+    min-width: 10px;
+    height: 0.8vh;
+    min-height: 10px;
+    border: 0.01vw solid #808080;
+}
+
+.checkbox-element:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: max(2px, 0.04vw);
+    left: max(2px, 0.04vw);
+    width: 0.05vw;
+    min-width: 3px;
+    height: 0.2vh;
+    min-height: 6px;
+    border: 0.1vw solid transparent;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    transform-origin: 50% 50%;
+    transform: rotate(35deg);
+}
+
+.checkbox-element-black {
+    appearance: none;
+    position: relative;
+    top: max(25px, 0.07vh);
+    left: max(-15px, 0vw);
+    margin: 0;
+    width: 0.4vw;
+    min-width: 10px;
+    height: 0.8vh;
+    min-height: 10px;
+    border: 0.01vw solid #808080;   
+}
+
+.checkbox-element-black:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: max(2px, 0.04vw);
+    left: max(2px, 0.04vw);
+    width: 0.05vw;
+    min-width: 3px;
+    height: 0.2vh;
+    min-height: 6px;
+    border: 0.1vw solid transparent;
+    border-bottom-color: black;
+    border-right-color: black;
+    transform-origin: 50% 50%;
+    transform: rotate(35deg);
+}
+
+.form-warning {
+    font-family: "SFProDisplay";
+
+    color:#ff4747;
+
+    transition: color 200ms linear;
+}
+
+.highlight-warning {
+    color: #ff0000;
+}

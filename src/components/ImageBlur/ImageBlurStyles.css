@@ -1,0 +1,22 @@
+.zoom {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-blur {
+    width: 100%;
+    height: 100%;
+
+    filter: blur(10px);
+    transform: scale(1.2);
+
+    object-fit: cover;
+
+    transition: 500ms all linear;
+}
+
+.visible {
+    transform: scale(1);
+    filter: blur(0px);
+}

@@ -1,0 +1,129 @@
+.fImageContainer {
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.5)100%), url("./images/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    height: 100vh;
+    min-height: 400px;
+
+    h1 { 
+        color: #FFFFFF;
+    }
+}
+
+.sidebar-button {
+    align-self: center;
+    justify-self: flex-start;
+
+    width: 3vw;
+    height: 3vh;
+
+    margin-left: 2vw;
+
+    color: #BBBBBB;
+    &:hover {
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.intrd-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.sidebar-a {
+    align-self: center;
+    justify-self: flex-start;
+
+    margin-right: 2vw;
+}
+
+.introductory-header {
+    display: flex;
+
+    width: 75vw;
+    height: auto;
+    margin-top: 3.5vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phone { 
+    color: #FFFFFF;
+    font-family: SFProDisplay;
+    font-size: 16px;
+
+    align-self: center;
+}
+
+.tabletPhone {
+    color: #FFFFFF;
+
+    font-family: SFProDisplay;
+    font-size: 24px;
+}
+
+.redirect {
+    color: #FFFFFF;
+    background-color: transparent;
+    font-family: 'SFProDisplay';
+    font-size: 16px;
+
+    border: 0.01vw solid #FFFFFF;
+
+    padding: 0.9vh 2vw;
+    margin-left: 2vw;
+
+    &:hover {
+        cursor: pointer;
+        background-color: black;
+        border: 0.01vw solid transparent;
+    }
+}
+
+.float-right{
+    display: flex;
+
+    align-self: center;
+    margin-left: auto;
+
+}
+
+.tabletSignup {
+    color: #FFFFFF;
+    background-color: transparent;
+    font-family: 'SFProDisplay';
+    border: 0.01vw solid #FFFFFF;
+    padding: 15px 100px;
+    font-size: 18px;
+
+    margin-top: 1vh;
+
+    &:hover { 
+        cursor: pointer;
+        background-color: black;
+    }
+}
+
+.positioning {
+    margin-top: 34vh;
+    margin-bottom: auto;
+}
+
+@media all and (max-width: 1366px) {
+    .introductory-header {
+        width: 95vw;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .intrdMediaH2 {
+        font-size: 40px;
+    }
+}

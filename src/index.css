@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "SFProDisplay";
+  src: url(./fonts/SFPRODISPLAYREGULAR.OTF) format("opentype");
+}
+
+.query {
+  background-color: transparent;
+
+  float: left;
+  text-align: center;
+
+  margin: 0;
+
+  margin-top: 1vh;
+  padding: 10px 20px;
+
+  font-family: 'SFProDisplay';
+  font-size: 16px;
+
+  border: 0.01vw solid #000;
+
+  width: 8vw;
+  min-width: 180px;
+    
+  &:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+}
+
+
+
+.root {
+  display: block;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+
+  
+
+  display: flex;
+
+  flex: wrap;
+
+  align-items: start;
+  justify-content: center;
+}
+
+.textBlock { 
+  width: 20vw;
+
+  min-width: 500px;
+
+  p {
+    margin-bottom: 2.5vh;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 4vh;
+  }
+}
+
+.main-wrapper {
+  width: 75vw;
+
+  padding-bottom: 20vh;
+
+  display: flex;
+
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.alignCenter { 
+  margin: auto;
+  width: 50vw;
+  text-align: left;
+}
+
+.alignLeftPadded {
+  text-align: left;
+}
+
+.alignRightPadded {
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.thesis1 {
+  font-family: "SFProDisplay";
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 2%;
+  font-weight: 400;
+}
+
+.thesis2 { 
+  font-family: 'SFProDisplay';
+  line-height: 150%;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: 'Cormorant';
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 0.1vw;
+  font-weight: 400;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Cormorant';
+  font-size: 45px;
+  line-height: 100%;
+  font-weight: 500;
+  color: #000000;
+}
+
+h3 {
+  font-family: 'SFProDisplay';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #808080;
+}
+
+p, li, td, th { 
+  font-family: 'SFProDisplay';
+  font-size: 16px;
+  color: #000000;
+}
+
+th {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+a {
+  color: #fafafa;
+  outline: none;
+  text-decoration: none;
+
+  font-family: 'SFProDisplay';
+  font-size: 18px;
+  line-height: 150%;
+}
+
+a:hover {
+  border-bottom: 0.02vw solid #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media all and (max-width: 1366px) {
+  .main-wrapper {
+    width: 95vw;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .textBlock {
+    min-width: 350px;
+  }
+
+}
+
+@media all and (max-width: 900px) {
+  .textBlock {
+    width: 100vw;
+    min-width: 320px;
+  }
+}

@@ -1,0 +1,118 @@
+.react-portal-modal-container {
+    display: flex;
+}
+
+.modal {
+    position: fixed;
+    inset: 0; /* inset sets all 4 values (top right bottom left) much like how we set padding, margin etc., */
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.modal-content {
+    display: flex;
+    position: relative;
+    text-align: left;
+
+    width: 575px;
+    height: 500px;
+
+    background-color: #ffffff;
+    color: #fff;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-header {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.modal-body { 
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-input {
+    border: 0.01vw solid #5D5D5D;
+    background-color: white;
+
+    width: 435px;
+
+    height: 2.5vh;
+
+    margin-bottom: 2vh;
+
+    text-indent: 0.7vw;
+    color: black;
+}
+
+.warning-span {
+    color:#000000;
+
+    transition: color 1s linear;
+
+    color: #ff0000;
+
+    margin-top: 2vh;
+}
+
+.modal-input:nth-child(2) {
+    margin: 0;
+}
+
+
+
+.modal-close-btn {
+    color: #5e5e5e;
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+
+    &:hover { 
+        cursor: pointer;
+        color: black;
+    }
+
+    height: 2em;
+    width: 3em;
+}
+
+.modal-query {
+    margin-top: 5vh;
+    color: #808080;
+
+    &:hover {
+        color: #ffffff;
+        background-color: black;
+    }
+}
+
+@media all and (max-width: 590px) {
+    .modal-content {
+        width: 310px;
+        margin: 0;
+    }
+
+    .modal-query {
+        width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal-input, .modal-input:nth-child(2){
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .checkbox-span {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
