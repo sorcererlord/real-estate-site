@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/real-estate-site/static/css/main.c0a96076.css",
+    "main.js": "/real-estate-site/static/js/main.bd64f5a8.js",
+    "static/media/image1.png": "/real-estate-site/static/media/image1.c428d42d7a08d26fcf04.png",
+    "static/media/Rectangle 90.png": "/real-estate-site/static/media/Rectangle 90.401f030e68895da02c24.png",
+    "static/media/Rectangle 27.png": "/real-estate-site/static/media/Rectangle 27.a53571d1f8141d706c77.png",
+    "static/media/Снимок экрана от 2024-05-06 19-04-37.png": "/real-estate-site/static/media/Снимок экрана от 2024-05-06 19-04-37.01b5448e02c448647c11.png",
+    "static/media/Rectangle 26.png": "/real-estate-site/static/media/Rectangle 26.6ba41df828d3bdeead1f.png",
+    "static/media/Rectangle15.png": "/real-estate-site/static/media/Rectangle15.e76d893ea43421fe2ee8.png",
+    "static/media/Rectangle 46.png": "/real-estate-site/static/media/Rectangle 46.8b62a1c860174939576c.png",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/real-estate-site/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/Rectangle 92.png": "/real-estate-site/static/media/Rectangle 92.9cd3f93b86bb3a9563cc.png",
+    "index.html": "/real-estate-site/index.html",
+    "main.c0a96076.css.map": "/real-estate-site/static/css/main.c0a96076.css.map",
+    "main.bd64f5a8.js.map": "/real-estate-site/static/js/main.bd64f5a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0a96076.css",
+    "static/js/main.bd64f5a8.js"
+  ]
+}
