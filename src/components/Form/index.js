@@ -1,7 +1,5 @@
 import {useState} from "react";
 import axios from "axios";
-import Checkbox from "../Checkbox";
-
 import './Form.css'
 
 function Form() {

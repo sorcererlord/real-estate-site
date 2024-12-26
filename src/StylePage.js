@@ -9,7 +9,6 @@ import lobbyImage from "./images/Rectangle 90.png"
 import towerImage1 from './images/Rectangle 26.png'
 import lobbyImage1 from './images/Rectangle 27.png'
 
-import lobbyImageMobile from './images/О проекте.png'
 import BlurredImage from "./components/ImageBlur";
 
 
@@ -73,9 +72,6 @@ function Advantages() {
 // 
 
 function Luxury() {
-    const { isMobile } = useMatchMedia();
-
-
     return (
         <div className='mainContainer luxContainer' >
             <section className="lux-wrapper">

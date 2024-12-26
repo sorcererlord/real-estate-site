@@ -1,4 +1,4 @@
-import {useEffect, useState } from "react";
+import {useState } from "react";
 import './CheckboxStyles.css'
 
 export default function Checkbox({children, blackCheck, modalCheck, onChange, value}) {
